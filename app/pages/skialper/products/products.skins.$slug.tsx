@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 import { useQuerySubscription } from 'react-datocms'
 import { useTranslation } from 'react-i18next'
@@ -29,7 +29,7 @@ import { useArticleCardProps } from '~/hooks/useArticleCardProps'
 import { useCardProps } from '~/hooks/useCardProps'
 import { getLocale } from '~/utils'
 
-export const meta: V2_MetaFunction = () => [
+export const meta: MetaFunction = () => [
   { title: "Products - The Buyer's Guide" },
 ]
 

@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 
 // import { useContext } from '~/hooks/useContext'
@@ -10,7 +10,7 @@ import { ResponsiveImageFragmentQuery } from '~/lib/generated'
 import { datoQuerySubscription, loadFragments } from '~/lib/datocms'
 import { getLocale } from '~/utils'
 
-export const meta: V2_MetaFunction = () => [{ title: "The Buyer's Guide" }]
+export const meta: MetaFunction = () => [{ title: "The Buyer's Guide" }]
 
 //generate type for layeredImage
 type LayeredImage = {

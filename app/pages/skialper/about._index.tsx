@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { useTranslation } from 'react-i18next'
 import { useLoaderData } from '@remix-run/react'
 
@@ -20,7 +20,7 @@ import {
 import { useArticleCardProps } from '~/hooks/useArticleCardProps'
 import { getLocale } from '~/utils'
 
-export const meta: V2_MetaFunction = () => [{ title: "The Buyer's Guide" }]
+export const meta: MetaFunction = () => [{ title: "The Buyer's Guide" }]
 
 export const loader = async ({ request, params }: LoaderArgs) => {
   const fragments = loadFragments([

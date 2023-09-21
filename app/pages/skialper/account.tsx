@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { redirect } from '@remix-run/node'
 import { Form, useLoaderData, useActionData } from '@remix-run/react'
 import { useTranslation } from 'react-i18next'
@@ -27,7 +27,7 @@ import BuyButton from '~/components/Atoms/BuyButton'
 import ShelfProductCarousel from '~/components/Organisms/ShelfProductCarousel/ShelfProductCarousel'
 import Modal from '~/components/Molecules/Modal/Modal'
 
-export const meta: V2_MetaFunction = () => [{ title: 'Account page' }]
+export const meta: MetaFunction = () => [{ title: 'Account page' }]
 
 const getCharacterValidationError = (str: string) => {
   return `Your password must have at least 1 ${str} character`

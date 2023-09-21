@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 import { useQuerySubscription } from 'react-datocms'
 
@@ -8,7 +8,7 @@ import StandardPage from '~/components/Sections/StandardPage/StandardPage'
 import NewsTextBlock from '~/components/Organisms/NewsTextBlock/NewsTextBlock'
 import { getLocale } from '~/utils'
 
-export const meta: V2_MetaFunction = () => [{ title: "The Buyer's Guide" }]
+export const meta: MetaFunction = () => [{ title: "The Buyer's Guide" }]
 export const loader = async ({ request, params }: LoaderArgs) => {
   const slug = params.slug
   const locale = getLocale(request)

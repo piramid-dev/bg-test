@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { useLoaderData, useNavigation } from '@remix-run/react'
 import { useQuerySubscription } from 'react-datocms'
 // import { responsiveImageFragment } from '~/lib/fragments'
@@ -14,7 +14,7 @@ import ScrollSpyNav from '~/components/Sections/ScrollSpyNav/ScrollSpyNav'
 import { datoQuerySubscription } from '~/lib/datocms'
 import type { IProduct } from '~/types/product.interface'
 
-export const meta: V2_MetaFunction = () => [
+export const meta: MetaFunction = () => [
   { title: "Products - The Buyer's Guide" },
 ]
 

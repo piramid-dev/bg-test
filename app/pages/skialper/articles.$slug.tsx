@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 import { useQuerySubscription } from 'react-datocms'
 import { t } from 'i18next'
@@ -30,7 +30,7 @@ import SingleNewsCardInfoCarousel from '~/components/Organisms/SingleNewsCardInf
 import ShelfProductCarousel from '~/components/Organisms/ShelfProductCarousel/ShelfProductCarousel'
 import { getLocale } from '~/utils'
 
-export const meta: V2_MetaFunction = () => [
+export const meta: MetaFunction = () => [
   { title: "Products - The Buyer's Guide" },
 ]
 

@@ -1,5 +1,5 @@
 import {
-  type V2_MetaFunction,
+  type MetaFunction,
   type LoaderArgs,
   type ActionArgs,
   redirect,
@@ -43,7 +43,7 @@ import { useArticleCardProps } from '~/hooks/useArticleCardProps'
 import { useCardProps } from '~/hooks/useCardProps'
 import { getLocale } from '~/utils'
 
-export const meta: V2_MetaFunction = () => [
+export const meta: MetaFunction = () => [
   { title: "Products - The Buyer's Guide" },
 ]
 

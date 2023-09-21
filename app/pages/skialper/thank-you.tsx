@@ -1,4 +1,4 @@
-import type { V2_MetaFunction, LoaderArgs } from '@remix-run/node'
+import type { MetaFunction, LoaderArgs } from '@remix-run/node'
 import { redirect } from '@remix-run/node'
 
 import Button from '~/components/Atoms/Button'
@@ -8,7 +8,7 @@ import {
   updateSubscriptionCL,
 } from '~/utils/commerceLayer'
 
-export const meta: V2_MetaFunction = () => [{ title: 'Thank you' }]
+export const meta: MetaFunction = () => [{ title: 'Thank you' }]
 
 export async function loader({ request }: LoaderArgs) {
   const userAccessToken = await getUserAccessToken(request)

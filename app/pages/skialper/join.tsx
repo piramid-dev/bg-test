@@ -1,4 +1,4 @@
-import type { ActionArgs, LoaderArgs, V2_MetaFunction } from '@remix-run/node'
+import type { ActionArgs, LoaderArgs, MetaFunction } from '@remix-run/node'
 import { useState } from 'react'
 import { redirect } from '@remix-run/node'
 import { authentication } from '@commercelayer/js-auth'
@@ -20,7 +20,7 @@ import LinkUnderline from '~/components/Atoms/LinkUnderline/LinkUnderline'
 import { getSession } from '~/sessions'
 import { createPrompterSurvey } from '~/lib/datocms.utils'
 
-export const meta: V2_MetaFunction = () => [{ title: 'Join' }]
+export const meta: MetaFunction = () => [{ title: 'Join' }]
 
 const getCharacterValidationError = (str: string) => {
   return `Your password must have at least 1 ${str} character`

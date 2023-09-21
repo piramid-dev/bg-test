@@ -1,4 +1,4 @@
-import type { ActionArgs, LoaderArgs, V2_MetaFunction } from '@remix-run/node'
+import type { ActionArgs, LoaderArgs, MetaFunction } from '@remix-run/node'
 import { redirect } from '@remix-run/node'
 import { authentication } from '@commercelayer/js-auth'
 import { useActionData } from '@remix-run/react'
@@ -16,7 +16,7 @@ import { getSession } from '~/sessions'
 import { retrieveUser } from '~/graphql/common-queries.graphql'
 import { createPrompterSurvey } from '~/lib/datocms.utils'
 
-export const meta: V2_MetaFunction = () => [{ title: 'Login' }]
+export const meta: MetaFunction = () => [{ title: 'Login' }]
 
 const validator = withYup(
   yup.object({

@@ -27,21 +27,22 @@ module.exports = {
   ], // to fix Error [ERR_REQUIRE_ESM]: require() of ES Module
 
   // Routes
-  // routes: (defineRoutes) => {
-  //   // If you need to do async work, do it before calling `defineRoutes`, we use
-  //   // the call stack of `route` inside to set nesting.
+  routes: (defineRoutes) => {
+    // If you need to do async work, do it before calling `defineRoutes`, we use
+    // the call stack of `route` inside to set nesting.
 
-  //   return defineRoutes((route) => {
-  //     routes.forEach((r) => {
-  //       route(r.path, r.component, {
-  //         id: `it-${r.path}`,
-  //       })
-  //     })
-  //     routes.forEach((r) => {
-  //       route(r.originalPath, r.component, {
-  //         id: `en-${r.originalPath}`,
-  //       })
-  //     })
-  //   })
-  // },
+    return defineRoutes((route) => {
+      route('/about', 'pages/skialper/about._index.tsx')
+      // routes.forEach((r) => {
+      //   route(r.path, r.component, {
+      //     id: `it-${r.path}`,
+      //   })
+      // })
+      // routes.forEach((r) => {
+      //   route(r.originalPath, r.component, {
+      //     id: `en-${r.originalPath}`,
+      //   })
+      // })
+    })
+  },
 }
