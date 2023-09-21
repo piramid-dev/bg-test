@@ -13,6 +13,7 @@ import {
   getUserSubscriptionsCL,
   getLatestsOrdersCL,
   cancelSubscriptionCL,
+  updateUserPasswordCL,
 } from '~/utils/commerceLayer'
 import UserProfile from '~/components/Sections/UserProfile'
 import { useCardProps } from '~/hooks/useCardProps'
@@ -22,7 +23,6 @@ import Button from '~/components/Atoms/Button/Button'
 import Input from '~/components/AtomsForms/Input'
 import Submit from '~/components/AtomsForms/Submit'
 import datoCmsClient from '~/lib/datocms.server'
-import { updateUserPasswordCL } from '~/utils/commerceLayer'
 import BuyButton from '~/components/Atoms/BuyButton'
 import ShelfProductCarousel from '~/components/Organisms/ShelfProductCarousel/ShelfProductCarousel'
 import Modal from '~/components/Molecules/Modal/Modal'

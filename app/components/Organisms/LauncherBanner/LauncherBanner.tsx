@@ -1,8 +1,7 @@
 import classNames from 'classnames'
 import type { FC } from 'react'
-import { useRef, useEffect, useState } from 'react'
+import { useRef, useEffect, useState, createElement } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { createElement } from 'react'
 import { Timer } from '@phosphor-icons/react'
 
 import type { Maybe } from '~/lib/generated'

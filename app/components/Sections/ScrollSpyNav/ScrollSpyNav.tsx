@@ -1,8 +1,7 @@
 import { Scrollspy } from '@makotot/ghostui'
 import classNames from 'classnames'
 import type { FC } from 'react'
-import React from 'react'
-import { Children, useMemo, createRef } from 'react'
+import React, { Children, useMemo, createRef } from 'react'
 
 import { useContext } from '../../../hooks/useContext'
 

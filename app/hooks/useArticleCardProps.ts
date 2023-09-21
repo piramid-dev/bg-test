@@ -34,12 +34,12 @@ export const useArticleCardProps = (articles: Array<ArticleRecord>) => {
       ...article.categories.map((category: CategoryRecord) => ({
         label: category.name!,
         to: l(`/category/${category.slug!}`),
-        variant: 'overlay' as 'overlay',
+        variant: 'overlay' as const,
       })),
       ...article.topics.map((topic: TopicRecord) => ({
         label: topic.name!,
         to: l(`/topic/${topic.slug!}`),
-        variant: 'white' as 'white',
+        variant: 'white' as const,
       })),
     ],
     imageUrl: article.modules.map((module) => {

@@ -864,12 +864,12 @@ export default function Article() {
                     ...article.categories.map((category) => ({
                       label: category.name,
                       to: `/category/${category.slug}`,
-                      variant: 'overlay' as 'overlay',
+                      variant: 'overlay' as const,
                     })),
                     ...article.topics.map((topic) => ({
                       label: topic.name,
                       to: `/topic/${topic.slug}`,
-                      variant: 'white' as 'white',
+                      variant: 'white' as const,
                     })),
                   ],
                   type: 'about' as NewsTypes,

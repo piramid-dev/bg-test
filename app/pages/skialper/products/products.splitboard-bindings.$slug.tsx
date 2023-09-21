@@ -1,8 +1,8 @@
-import type { ActionArgs } from '@remix-run/node'
-import {
+import { redirect } from '@remix-run/node'
+import type {
+  ActionArgs,
   type V2_MetaFunction,
   type LoaderArgs,
-  redirect,
 } from '@remix-run/node'
 import { useLoaderData } from '@remix-run/react'
 import { useQuerySubscription } from 'react-datocms'

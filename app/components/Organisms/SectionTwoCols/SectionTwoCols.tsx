@@ -1,8 +1,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion'
-import type { FC } from 'react'
+import type { FC, CSSProperties } from 'react'
 import { useRef } from 'react'
 import classNames from 'classnames'
-import type { CSSProperties } from 'react'
 
 import Button from '../../Atoms/Button/Button'
 

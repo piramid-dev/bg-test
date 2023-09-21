@@ -3,8 +3,7 @@ import classNames from 'classnames'
 import { motion, useAnimation } from 'framer-motion'
 import { CaretDown } from 'phosphor-react'
 import type { FC } from 'react'
-import { useState, useEffect } from 'react'
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import Button from '../Button/Button'
 

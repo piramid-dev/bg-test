@@ -17,9 +17,9 @@ import type {
   IFilter,
   IFilterEnriched,
   IPrefilledFilter,
+  ISortOption,
 } from '../../..//types/filter.interface'
 import { filterItems, prepareFilterArray } from '../../../lib/filter.utils'
-import type { ISortOption } from '../../../types/filter.interface'
 import type { IProduct } from '../../../types/product.interface'
 import Button from '../../Atoms/Button/Button'
 import DropdownOrder from '../../Molecules/DropdownOrder/DropdownOrder'

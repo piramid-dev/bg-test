@@ -4,10 +4,10 @@ import type { ChildrenElement } from '~/types/globalTypes'
 import type {
   IdentityProviderState,
   IdentityProviderValue,
+  CommerceLayerAppConfig,
 } from '~/providers/types'
 import getEnv from '~/utils/getEnv'
 import { reducer } from '~/providers/reducer'
-import type { CommerceLayerAppConfig } from '~/providers/types'
 import { getSettings } from '~/utils/getSettings'
 // import { DefaultSkeleton as DefaultSkeletonFC } from '~/components/DefaultSkeleton'
 
