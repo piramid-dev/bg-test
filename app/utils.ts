@@ -1,4 +1,5 @@
-import routes from './pages/_routes.js'
+// import routes from './pages/_routes.js'
+const routes = require('~/pages/_routes.js')
 
 export function validateEmail(email: unknown): email is string {
   return typeof email === 'string' && email.length > 3 && email.includes('@')

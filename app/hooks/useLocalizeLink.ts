@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
-import routes from '../pages/_routes.js'
+const routes = require('../pages/_routes.js')
+// import routes from '~/pages/_routes.js'
 
 export const useLocalizeLink = () => {
   const { i18n } = useTranslation()
