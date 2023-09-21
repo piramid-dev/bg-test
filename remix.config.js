@@ -1,6 +1,6 @@
 /** @type {import('@remix-run/dev').AppConfig} */
 // Import routes.js
-const routes = require('./app/pages/_routes.js')
+// const routes = require('./app/pages/_routes.js')
 
 module.exports = {
   cacheDirectory: './node_modules/.cache/remix',
@@ -40,16 +40,20 @@ module.exports = {
     // the call stack of `route` inside to set nesting.
 
     return defineRoutes((route) => {
-      routes.forEach((r) => {
-        route(r.path, r.component, {
-          id: `it-${r.path}`,
-        })
-      })
-      routes.forEach((r) => {
-        route(r.originalPath, r.component, {
-          id: `en-${r.originalPath}`,
-        })
-      })
+      route('/', 'pages/_index.tsx')
     })
+
+    // return defineRoutes((route) => {
+    //   routes.forEach((r) => {
+    //     route(r.path, r.component, {
+    //       id: `it-${r.path}`,
+    //     })
+    //   })
+    //   routes.forEach((r) => {
+    //     route(r.originalPath, r.component, {
+    //       id: `en-${r.originalPath}`,
+    //     })
+    //   })
+    // })
   },
 }
