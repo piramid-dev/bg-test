@@ -1,0 +1,28 @@
+{
+  "allmountain": {
+    "featComfort": 9,
+    "featRigidity": 7,
+    "featSoleFit": 8,
+    "featSupportLateral": 8,
+    "alpinism": 8,
+    "longHike": 8,
+    "funFreeride": 7,
+    "levelAdvanced": 9,
+    "levelBeginner": 4,
+    "levelGrowing": 6,
+    "levelHigh": 9
+  },
+  "powder": {
+    "featComfort": 9,
+    "featRigidity": 7,
+    "featSoleFit": 8,
+    "featSupportLateral": 8,
+    "alpinism": 8,
+    "longHike": 8,
+    "funFreeride": 7,
+    "levelAdvanced": 9,
+    "levelBeginner": 4,
+    "levelGrowing": 6,
+    "levelHigh": 9
+  }
+}

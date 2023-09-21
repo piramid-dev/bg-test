@@ -1,0 +1,34 @@
+{
+  "free": {
+    "dynafitInsertsReleaseGloves": 2,
+    "dynafitInsertsReleasePole": 2,
+    "dynafitInsertsStepin": 2,
+    "otherInsertsReleaseGloves": 2,
+    "otherInsertsReleasePole": 2,
+    "otherInsertsStepin": 2
+  },
+  "tour": {
+    "dynafitInsertsReleaseGloves": 2,
+    "dynafitInsertsReleasePole": 3,
+    "dynafitInsertsStepin": 3,
+    "otherInsertsReleaseGloves": 2,
+    "otherInsertsReleasePole": 3,
+    "otherInsertsStepin": 2
+  },
+  "race": {
+    "dynafitInsertsReleaseGloves": 2,
+    "dynafitInsertsReleasePole": 2,
+    "dynafitInsertsStepin": 2,
+    "otherInsertsReleaseGloves": 2,
+    "otherInsertsReleasePole": 2,
+    "otherInsertsStepin": 2
+  },
+  "light": {
+    "dynafitInsertsReleaseGloves": 2,
+    "dynafitInsertsReleasePole": 2,
+    "dynafitInsertsStepin": 2,
+    "otherInsertsReleaseGloves": 2,
+    "otherInsertsReleasePole": 2,
+    "otherInsertsStepin": 2
+  }
+}

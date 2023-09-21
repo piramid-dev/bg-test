@@ -1,0 +1,54 @@
+{
+  "free": {
+    "summit": 2,
+    "slope": 7,
+    "line": 3,
+    "snowCrust": 7,
+    "snowHard": 6,
+    "snowPowder": 8,
+    "snowWet": 8,
+    "levelAdvanced": 8,
+    "levelBeginner": 5,
+    "levelGrowing": 7,
+    "levelHigh": 8
+  },
+  "tour": {
+    "summit": 4,
+    "slope": 6,
+    "line": 2,
+    "snowCrust": 6,
+    "snowHard": 7,
+    "snowPowder": 7,
+    "snowWet": 7,
+    "levelAdvanced": 7,
+    "levelBeginner": 6,
+    "levelGrowing": 7,
+    "levelHigh": 7
+  },
+  "light": {
+    "summit": 10,
+    "slope": 1,
+    "line": 1,
+    "snowCrust": 7,
+    "snowHard": 8,
+    "snowPowder": 8,
+    "snowWet": 8,
+    "levelAdvanced": 9,
+    "levelBeginner": 6,
+    "levelGrowing": 8,
+    "levelHigh": 8
+  },
+  "race": {
+    "summit": 10,
+    "slope": 1,
+    "line": 1,
+    "snowCrust": 8,
+    "snowHard": 8,
+    "snowPowder": 8,
+    "snowWet": 8,
+    "levelAdvanced": 8,
+    "levelBeginner": 6,
+    "levelGrowing": 7,
+    "levelHigh": 8
+  }
+}

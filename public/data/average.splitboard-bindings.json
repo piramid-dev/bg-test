@@ -1,0 +1,26 @@
+{
+  "allmountain": {
+    "alpinism": 8,
+    "longHike": 8,
+    "funFreeride": 8,
+    "featHibackRigidity": 8,
+    "featUsageSpeed": 8,
+    "featStrapComfort": 8,
+    "levelAdvanced": 8,
+    "levelBeginner": 8,
+    "levelGrowing": 9,
+    "levelHigh": 8
+  },
+  "powder": {
+    "alpinism": 8,
+    "longHike": 8,
+    "funFreeride": 8,
+    "featHibackRigidity": 8,
+    "featUsageSpeed": 8,
+    "featStrapComfort": 8,
+    "levelAdvanced": 8,
+    "levelBeginner": 8,
+    "levelGrowing": 9,
+    "levelHigh": 8
+  }
+}

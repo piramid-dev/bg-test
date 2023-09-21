@@ -1,0 +1,68 @@
+/* Suisse Int'l */
+@font-face {
+  font-family: 'Suisse Intl';
+  src:
+    url('/fonts/SuisseIntl-Book-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseIntl-Book-WebS.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src:
+    url('/fonts/SuisseIntl-Regular-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseIntl-Regular-WebS.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src:
+    url('/fonts/SuisseIntl-SemiBold-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseIntl-SemiBold-WebS.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+/* Suisse Works */
+@font-face {
+  font-family: 'Suisse Works';
+  src:
+    url('/fonts/SuisseWorks-Regular-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseWorks-Regular-WebS.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Suisse Works';
+  src:
+    url('/fonts/SuisseWorks-Medium-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseWorks-Medium-WebS.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Suisse Works';
+  src:
+    url('/fonts/SuisseWorks-Bold-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseWorks-Bold-WebS.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+/* Suisse Condensed */
+@font-face {
+  font-family: 'Suisse Intl Condensed';
+  src:
+    url('/fonts/SuisseIntlCond-Medium-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseIntlCond-Medium-WebS.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+/* Suisse Mono */
+@font-face {
+  font-family: 'SSuisse Intl Mono';
+  src:
+    url('/fonts/SuisseIntlMono-Regular-WebS.woff2') format('woff2'),
+    url('/fonts/SuisseIntlMono-Regular-WebS.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,22 @@
+{
+  "allmountain": {
+    "bigMountain": 8,
+    "funFreeride": 8,
+    "longHike": 8,
+    "steep": 7,
+    "levelAdvanced": 8,
+    "levelBeginner": 6,
+    "levelGrowing": 7,
+    "levelHigh": 8
+  },
+  "powder": {
+    "bigMountain": 8,
+    "funFreeride": 9,
+    "longHike": 6,
+    "steep": 6,
+    "levelAdvanced": 9,
+    "levelBeginner": 6,
+    "levelGrowing": 8,
+    "levelHigh": 8
+  }
+}

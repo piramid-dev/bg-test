@@ -1,0 +1,294 @@
+{
+  "prompter": [
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "Qual è la tua idea di montagna?",
+            "it": "Qual è la tua idea di montagna?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "Prima di tutto devi dirci per che cosa vorresti usare l’attrezzatura, perché ci sono tanti modi di affrontare lo scialpinismo e peso, larghezza, tipo di costruzione e materiali dello sci o dello scarpone fanno la differenza. E possono trasformare una giornata complicata in un giorno da ricordare.",
+            "it": "Prima di tutto devi dirci per che cosa vorresti usare l’attrezzatura, perché ci sono tanti modi di affrontare lo scialpinismo e peso, larghezza, tipo di costruzione e materiali dello sci o dello scarpone fanno la differenza. E possono trasformare una giornata complicata in un giorno da ricordare."
+          },
+          "fieldName": "user_pourpouse",
+          "choices": {
+            "en": [
+              {
+                "label": "Mi piace stare in montagna ma senza grandi aspettative",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Mantenermi in forma",
+                "imageUrl": "https://picsum.photos/id/102/200/300"
+              },
+              {
+                "label": "Inanellare una cima dietro l'altra, anche con ingaggio alpinistico",
+                "imageUrl": "https://picsum.photos/id/103/200/300"
+              },
+              {
+                "label": "Di tutto un po’ ma alla fine divertirsi sciando",
+                "imageUrl": "https://picsum.photos/id/104/200/300"
+              },
+              {
+                "label": "La polvere quando nevica",
+                "imageUrl": "https://picsum.photos/id/107/200/300"
+              }
+            ],
+            "it": [
+              {
+                "label": "Mi piace stare in montagna ma senza grandi aspettative",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Mantenermi in forma",
+                "imageUrl": "https://picsum.photos/id/102/200/300"
+              },
+              {
+                "label": "Inanellare una cima dietro l'altra, anche con ingaggio alpinistico",
+                "imageUrl": "https://picsum.photos/id/103/200/300"
+              },
+              {
+                "label": "Di tutto un po’ ma alla fine divertirsi sciando",
+                "imageUrl": "https://picsum.photos/id/104/200/300"
+              },
+              {
+                "label": "La polvere quando nevica",
+                "imageUrl": "https://picsum.photos/id/107/200/300"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "Che esperienza sciistica hai?",
+            "it": "Che esperienza sciistica hai?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "Lo sappiamo che è dai tempi di Tomba che tutti vogliono il suo sci e si definiscono campioni, ma se non ci dici come scii veramente, rischiamo di consigliarti uno sci troppo faticoso da fare girare o uno scarpone che ti sembrerà un pezzo di marmo. L’attrezzatura adatta al proprio livello è il migliore presupposto per una gita indimenticabile.",
+            "it": "Lo sappiamo che è dai tempi di Tomba che tutti vogliono il suo sci e si definiscono campioni, ma se non ci dici come scii veramente, rischiamo di consigliarti uno sci troppo faticoso da fare girare o uno scarpone che ti sembrerà un pezzo di marmo. L’attrezzatura adatta al proprio livello è il migliore presupposto per una gita indimenticabile."
+          },
+          "fieldName": "user_experience",
+          "choices": {
+            "en": [
+              {
+                "label": "Sono alle prime armi",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Ho sempre sciato in pista",
+                "imageUrl": "https://picsum.photos/id/102/200/300"
+              },
+              {
+                "label": "A mio agio su tutti i tipi di neve",
+                "imageUrl": "https://picsum.photos/id/104/200/300"
+              },
+              {
+                "label": "Ottima tecnica di discesa su tutti i tipi di neve",
+                "imageUrl": "https://picsum.photos/id/107/200/300"
+              }
+            ],
+            "it": [
+              {
+                "label": "Sono alle prime armi",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Ho sempre sciato in pista",
+                "imageUrl": "https://picsum.photos/id/102/200/300"
+              },
+              {
+                "label": "A mio agio su tutti i tipi di neve",
+                "imageUrl": "https://picsum.photos/id/104/200/300"
+              },
+              {
+                "label": "Ottima tecnica di discesa su tutti i tipi di neve",
+                "imageUrl": "https://picsum.photos/id/107/200/300"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "Che preparazione fisica hai?",
+            "it": "Che preparazione fisica hai?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "Per ottenere risultati di vuole impegno. Non sono solo le nonne a dirlo, ma anche la montagna, che premia chi ha un minimo di preparazione fisica. Ma se proprio non ne vuoi sapere, meglio uno sci facile ed economico…",
+            "it": "Per ottenere risultati di vuole impegno. Non sono solo le nonne a dirlo, ma anche la montagna, che premia chi ha un minimo di preparazione fisica. Ma se proprio non ne vuoi sapere, meglio uno sci facile ed economico…"
+          },
+          "fieldName": "user_training",
+          "choices": {
+            "en": [
+              {
+                "label": "Divanista",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Intermedio",
+                "imageUrl": "https://picsum.photos/id/102/200/300"
+              },
+              {
+                "label": "Mi tengo allenato con costanza",
+                "imageUrl": "https://picsum.photos/id/107/200/300"
+              }
+            ],
+            "it": [
+              {
+                "label": "Divanista",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Intermedio",
+                "imageUrl": "https://picsum.photos/id/102/200/300"
+              },
+              {
+                "label": "Mi tengo allenato con costanza",
+                "imageUrl": "https://picsum.photos/id/107/200/300"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "questions": [
+        {
+          "question": {
+            "en": "Con chi vai?",
+            "it": "Con chi vai?"
+          },
+          "type": "singlechoice-image",
+          "helpText": {
+            "en": "Va bene il livello sciistico e l’allenamento, ma se ti presenti con uno stuzzicadenti da 70 mm al centro a un raduno di freerider parti sicuramente con il piede sbagliato.",
+            "it": "Va bene il livello sciistico e l’allenamento, ma se ti presenti con uno stuzzicadenti da 70 mm al centro a un raduno di freerider parti sicuramente con il piede sbagliato."
+          },
+          "fieldName": "user_group_type",
+          "choices": {
+            "en": [
+              {
+                "label": "Corso CAI ",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Amici che vanno al mio passo",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Gente che mi tira il collo",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Impianti e brevi trasferimenti con le pelli",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              }
+            ],
+            "it": [
+              {
+                "label": "Corso CAI ",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Amici che vanno al mio passo",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Gente che mi tira il collo",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              },
+              {
+                "label": "Impianti e brevi trasferimenti con le pelli",
+                "imageUrl": "https://picsum.photos/id/101/200/300"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "it": "Dicci qualcosa di te",
+        "en": "Tell us something about you"
+      },
+      "questions": [
+        {
+          "question": {
+            "en": "Quanto Pesi",
+            "it": "Quanto Pesi"
+          },
+          "type": "range",
+          "unit": "kg",
+          "fieldName": "user_weight",
+          "range": {
+            "min": 40,
+            "max": 140
+          },
+          "helpText": {
+            "en": "Pesare non è necessariamente una brutta cosa, perché più si è pesanti, più si va giù veloci, però ci vogliono anche attrezzi in grado di sopportare una spinta importante. Oppure non troppo strutturati se hai una sciata più gentile.",
+            "it": "Pesare non è necessariamente una brutta cosa, perché più si è pesanti, più si va giù veloci, però ci vogliono anche attrezzi in grado di sopportare una spinta importante. Oppure non troppo strutturati se hai una sciata più gentile."
+          }
+        },
+        {
+          "question": {
+            "en": "Genere",
+            "it": "Genere"
+          },
+          "type": "singlechoice",
+          "fieldName": "user_genre",
+          "choices": {
+            "it": ["Uomo", "Donna", "preferisco non dichiararmi"],
+            "en": ["Male", "Female", "Prefer not to say"]
+          },
+          "helpText": {
+            "en": "Politically correct o no, quella dell’attrezzo da uomo e da donna è una questione dibattuta. C’è chi punta solo sui colori sgargianti e chi produce sci con valori di flex più concilianti. E chi, semplicemente, quegli sci più morbidi li indica per ragazzi, uomini più leggeri e donne. Una cosa è certa però: il piede femminile è diverso e lo scarpone anche.",
+            "it": "Politically correct o no, quella dell’attrezzo da uomo e da donna è una questione dibattuta. C’è chi punta solo sui colori sgargianti e chi produce sci con valori di flex più concilianti. E chi, semplicemente, quegli sci più morbidi li indica per ragazzi, uomini più leggeri e donne. Una cosa è certa però: il piede femminile è diverso e lo scarpone anche."
+          }
+        },
+        {
+          "question": {
+            "en": "Quanti anni hai?",
+            "it": "Quanti anni hai?"
+          },
+          "type": "singlechoice",
+          "fieldName": "user_age",
+          "choices": {
+            "en": ["Under 18", "18-35", "36-50", "51-65", "66-90"],
+            "it": ["Meno di 18", "18-35", "36-50", "51-65", "66-90"]
+          },
+          "helpText": {
+            "en": "Se sei giovane, sei più energico, ma hai meno esperienza; se hai esperienza, magari vuoi fare meno fatica ;)",
+            "it": "Se sei giovane, sei più energico, ma hai meno esperienza; se hai esperienza, magari vuoi fare meno fatica ;)"
+          }
+        },
+        {
+          "question": {
+            "en": "Qual è la tua altezza?",
+            "it": "Qual è la tua altezza?"
+          },
+          "type": "range",
+          "fieldName": "user_height",
+          "unit": "cm",
+          "range": {
+            "min": 120,
+            "max": 240
+          },
+          "helpText": {
+            "en": "Più basso della tua altezza no, però l’altezza dello sci conta: più corto per aiutare le inversioni, più lungo per andare più veloci, oppure largo per galleggiare, ma accorciando per risparmiare peso. E poi considera che sci molto rockerati rispondono come attrezzi più corti.",
+            "it": "Più basso della tua altezza no, però l’altezza dello sci conta: più corto per aiutare le inversioni, più lungo per andare più veloci, oppure largo per galleggiare, ma accorciando per risparmiare peso. E poi considera che sci molto rockerati rispondono come attrezzi più corti."
+          }
+        }
+      ]
+    }
+  ]
+}

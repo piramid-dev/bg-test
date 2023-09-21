@@ -1,0 +1,679 @@
+fragment responsiveImage on ResponsiveImage {
+  srcSet
+  webpSrcSet
+  sizes
+  src
+  width
+  height
+  aspectRatio
+  alt
+  title
+  base64
+}
+
+fragment responsiveImageCardFocalZero on MediaProductRecord {
+  webImage {
+    responsiveImage(
+      imgixParams: { fm: jpg, fit: crop, w: 1000, h: 1000, fpY: 0 }
+    ) {
+      srcSet
+      webpSrcSet
+      sizes
+      src
+      width
+      height
+      aspectRatio
+      alt
+      title
+      base64
+    }
+  }
+}
+
+fragment responsiveImageCardFocalOne on MediaProductRecord {
+  webImage {
+    responsiveImage(
+      imgixParams: { fm: jpg, fit: crop, w: 1000, h: 1000, fpY: 1 }
+    ) {
+      srcSet
+      webpSrcSet
+      sizes
+      src
+      width
+      height
+      aspectRatio
+      alt
+      title
+      base64
+    }
+  }
+}
+
+fragment responsiveImageCardFocalHalf on MediaProductRecord {
+  webImage {
+    responsiveImage(
+      imgixParams: { fm: jpg, fit: crop, w: 1000, h: 1000, fpY: 0.5 }
+    ) {
+      srcSet
+      webpSrcSet
+      sizes
+      src
+      width
+      height
+      aspectRatio
+      alt
+      title
+      base64
+    }
+  }
+}
+
+fragment articleCard on ArticleRecord {
+  id
+  title
+  slug
+  metadata {
+    description
+    title
+  }
+  categories {
+    id
+    name
+    slug
+  }
+  topics {
+    id
+    name
+    color
+    slug
+  }
+  modules {
+    ... on HeroRecord {
+      __typename
+      id
+      heroType
+      subheading
+      image {
+        responsiveImage(imgixParams: { fm: jpg }) {
+          srcSet
+          webpSrcSet
+          sizes
+          src
+          width
+          height
+          aspectRatio
+          alt
+          title
+          base64
+        }
+      }
+    }
+  }
+}
+
+fragment teamProductsSetup on PersonModelProductsField {
+  ... on SkiRecord {
+    ...skiCard
+  }
+  ... on BootRecord {
+    ...bootCard
+  }
+  ... on BindingRecord {
+    ...bindingCard
+  }
+  ... on PoleRecord {
+    ...poleCard
+  }
+  ... on SkinRecord {
+    ...skinCard
+  }
+  ... on SplitboardRecord {
+    ...splitboardCard
+  }
+  ... on SplitboardBindingRecord {
+    ...splitboardBindingCard
+  }
+  ... on SplitboardBootRecord {
+    ...splitboardBootCard
+  }
+}
+
+fragment favorites on UserModelFavoriteProductsField {
+  ... on SkiRecord {
+    ...skiCard
+  }
+  ... on BootRecord {
+    ...bootCard
+  }
+  ... on BindingRecord {
+    ...bindingCard
+  }
+  ... on SplitboardRecord {
+    ...splitboardCard
+  }
+  ... on SplitboardBootRecord {
+    ...splitboardBootCard
+  }
+  ... on SplitboardBindingRecord {
+    ...splitboardBindingCard
+  }
+  ... on HelmetRecord {
+    ...helmetCard
+  }
+  ... on AirbagRecord {
+    ...airbagCard
+  }
+  ... on ArtvaRecord {
+    ...artvaCard
+  }
+  ... on ShovelRecord {
+    ...shovelCard
+  }
+  ... on ProbeRecord {
+    ...probeCard
+  }
+  ... on SkinRecord {
+    ...skinCard
+  }
+  ... on PoleRecord {
+    ...poleCard
+  }
+  ... on CramponRecord {
+    ...cramponCard
+  }
+  ... on HarnessRecord {
+    ...harnessCard
+  }
+}
+
+fragment skiCard on SkiRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  testedPreview
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalZero
+  }
+  # Extra info
+  waistWidthDeclared
+  weightDeclared
+}
+
+fragment bootCard on BootRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  testedPreview
+
+  media {
+    ...responsiveImageCardFocalZero
+  }
+  # Extra info
+  leverNumber
+  weightDeclared
+}
+
+fragment bindingCard on BindingRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  testedPreview
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalZero
+  }
+  # Extra info
+  types {
+    name
+  }
+  weightDeclared
+}
+
+fragment splitboardCard on SplitboardRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  testedPreview
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+}
+
+fragment splitboardBootCard on SplitboardBootRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  testedPreview
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+}
+
+fragment splitboardBindingCard on SplitboardBindingRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  testedPreview
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+}
+
+fragment helmetCard on HelmetRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  weightDeclared
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+}
+
+fragment airbagCard on AirbagRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+  inflationType {
+    name
+  }
+}
+
+fragment artvaCard on ArtvaRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  autonomy
+}
+
+fragment shovelCard on ShovelRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+}
+
+fragment probeCard on ProbeRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+  material {
+    name
+  }
+}
+
+fragment skinCard on SkinRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalHalf
+  }
+  # Extra info
+  materials {
+    name
+  }
+  weightDryMeasured
+}
+
+fragment poleCard on PoleRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  categories {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalOne
+    webImagePreview {
+      responsiveImage(
+        imgixParams: { fm: jpg, fit: crop, w: 1000, h: 1000, fpY: 1 }
+      ) {
+        srcSet
+        webpSrcSet
+        sizes
+        src
+        width
+        height
+        aspectRatio
+        alt
+        title
+        base64
+      }
+    }
+  }
+  # Extra info
+  types {
+    name
+  }
+}
+
+fragment cramponCard on CramponRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+}
+
+fragment harnessCard on HarnessRecord {
+  __typename
+  id
+  name
+  slug
+  brand {
+    name
+    slug
+  }
+  families {
+    name
+    slug
+  }
+  awards {
+    label
+    name
+    shortName
+    color {
+      hex
+    }
+  }
+  media {
+    ...responsiveImageCardFocalOne
+  }
+  # Extra info
+  weightDeclared
+}

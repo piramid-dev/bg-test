@@ -1,0 +1,42 @@
+{
+  "free": {
+    "performanceClimbing": 5,
+    "performanceSkiing": 8,
+    "performanceWalk": 6,
+    "performanceSkisAscent": 6,
+    "labBootfitting": 8,
+    "labBuckles": 7,
+    "labSkiwalk": 7,
+    "labCramponability": 8
+  },
+  "tour": {
+    "performanceClimbing": 7,
+    "performanceSkiing": 7,
+    "performanceWalk": 7,
+    "performanceSkisAscent": 7,
+    "labBootfitting": 8,
+    "labBuckles": 7,
+    "labSkiwalk": 8,
+    "labCramponability": 8
+  },
+  "light": {
+    "performanceClimbing": 8,
+    "performanceSkiing": 8,
+    "performanceWalk": 9,
+    "performanceSkisAscent": 9,
+    "labBootfitting": 8,
+    "labBuckles": 9,
+    "labSkiwalk": 9,
+    "labCramponability": 7
+  },
+  "race": {
+    "performanceClimbing": 9,
+    "performanceSkiing": 9,
+    "performanceWalk": 9,
+    "performanceSkisAscent": 9,
+    "labBootfitting": 5,
+    "labBuckles": 8,
+    "labSkiwalk": 9,
+    "labCramponability": 7
+  }
+}
